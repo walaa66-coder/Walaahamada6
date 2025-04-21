@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Fırın – تواصل معنا</title>
+  <style>
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body {
+      font-family: sans-serif;
+      direction: rtl;
+      background-color: #fff8f0;
+      color: #3e2f1c;
+    }
+    header {
+      background: linear-gradient(to left, #8d6748, #d8a47f);
+      padding: 20px;
+      text-align: center;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+    header h1 { font-size:2.5em; color:white; }
+    nav ul { list-style:none; margin-top:10px; }
+    nav ul li { display:inline-block; margin:0 15px; }
+    nav ul li a { color:white; text-decoration:none; font-weight:bold; transition:color .3s; }
+    nav ul li a:hover { color:#ffe5b4; }
+    .contact-form {
+      max-width:600px;
+      margin:30px auto;
+      background:#fff0e1;
+      padding:30px;
+      border-radius:20px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.05);
+    }
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+      width:100%;
+      padding:10px;
+      margin-top:15px;
+      border-radius:10px;
+      border:1px solid #ccc;
+      font-size:1em;
+    }
+    .contact-form button {
+      background:#8d6748;
+      color:white;
+      border:none;
+      cursor:pointer;
+      transition:background .3s;
+    }
+    .contact-form button:hover {
+      background:#d8a47f;
+    }
+    footer {
+      background:#8d6748;
+      color:white;
+      text-align:center;
+      padding:15px;
+      border-top-left-radius:20px;
+      border-top-right-radius:20px;
+      margin-top:40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>مخبز Fırın</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contact-form">
+      <h2>تواصل معنا</h2>
+      <form>
+        <input type="text" placeholder="اسمك" required>
+        <input type="email" placeholder="بريدك الإلكتروني" required>
+        <textarea placeholder="رسالتك" rows="5"></textarea>
+        <button type="submit">أرسل</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>جميع الحقوق محفوظة © 2025 Fırın</p>
+  </footer>
+
+</body>
+</html>
